@@ -11,7 +11,6 @@
 		9D2AE22523AA1243B39A8F07 /* Pods_ajeje.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22ACE278FE11DE58C5D8117A /* Pods_ajeje.framework */; };
 		AE478F7A1DBB370B007E7640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478F791DBB370B007E7640 /* main.m */; };
 		AE478F7D1DBB370B007E7640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478F7C1DBB370B007E7640 /* AppDelegate.m */; };
-		AE478F801DBB370B007E7640 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478F7F1DBB370B007E7640 /* SplashViewController.m */; };
 		AE478F831DBB370B007E7640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE478F811DBB370B007E7640 /* Main.storyboard */; };
 		AE478F851DBB370B007E7640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE478F841DBB370B007E7640 /* Assets.xcassets */; };
 		AE478F881DBB370B007E7640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE478F861DBB370B007E7640 /* LaunchScreen.storyboard */; };
@@ -21,6 +20,15 @@
 		AE478FB31DBB54BF007E7640 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE478FB21DBB54BF007E7640 /* Constant.swift */; };
 		AE478FB61DBB6492007E7640 /* RecommandationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478FB51DBB6492007E7640 /* RecommandationViewController.m */; };
 		AE478FB91DBBA58E007E7640 /* RecommandationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478FB81DBBA58E007E7640 /* RecommandationDetailsViewController.m */; };
+		AE478FBC1DBBB7B7007E7640 /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478FBB1DBBB7B7007E7640 /* LandingViewController.m */; };
+		AE478FC61DBBBE51007E7640 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE478FBE1DBBBE51007E7640 /* Montserrat-Black.otf */; };
+		AE478FC71DBBBE51007E7640 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE478FBF1DBBBE51007E7640 /* Montserrat-Bold.otf */; };
+		AE478FC81DBBBE51007E7640 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE478FC01DBBBE51007E7640 /* Montserrat-Bold.ttf */; };
+		AE478FC91DBBBE51007E7640 /* Montserrat-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE478FC11DBBBE51007E7640 /* Montserrat-Hairline.otf */; };
+		AE478FCA1DBBBE51007E7640 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE478FC21DBBBE51007E7640 /* Montserrat-Light.otf */; };
+		AE478FCB1DBBBE51007E7640 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE478FC31DBBBE51007E7640 /* Montserrat-Regular.otf */; };
+		AE478FCC1DBBBE51007E7640 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE478FC41DBBBE51007E7640 /* Montserrat-Regular.ttf */; };
+		AE478FCD1DBBBE51007E7640 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE478FC51DBBBE51007E7640 /* Montserrat-SemiBold.otf */; };
 		D6ECDFAC61F086C077522820 /* Pods_ajejeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E842CD14C70C164F28284214 /* Pods_ajejeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +61,6 @@
 		AE478F791DBB370B007E7640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE478F7B1DBB370B007E7640 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE478F7C1DBB370B007E7640 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE478F7E1DBB370B007E7640 /* SplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
-		AE478F7F1DBB370B007E7640 /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		AE478F821DBB370B007E7640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE478F841DBB370B007E7640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE478F871DBB370B007E7640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,6 +79,16 @@
 		AE478FB51DBB6492007E7640 /* RecommandationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommandationViewController.m; sourceTree = "<group>"; };
 		AE478FB71DBBA58E007E7640 /* RecommandationDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommandationDetailsViewController.h; sourceTree = "<group>"; };
 		AE478FB81DBBA58E007E7640 /* RecommandationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommandationDetailsViewController.m; sourceTree = "<group>"; };
+		AE478FBA1DBBB7B7007E7640 /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
+		AE478FBB1DBBB7B7007E7640 /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		AE478FBE1DBBBE51007E7640 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		AE478FBF1DBBBE51007E7640 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		AE478FC01DBBBE51007E7640 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		AE478FC11DBBBE51007E7640 /* Montserrat-Hairline.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Hairline.otf"; sourceTree = "<group>"; };
+		AE478FC21DBBBE51007E7640 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		AE478FC31DBBBE51007E7640 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		AE478FC41DBBBE51007E7640 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		AE478FC51DBBBE51007E7640 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
 		C8F8561A0D6B04A0F7BFA203 /* Pods-ajejeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajejeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ajejeTests/Pods-ajejeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E842CD14C70C164F28284214 /* Pods_ajejeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ajejeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -153,10 +169,9 @@
 		AE478F771DBB370B007E7640 /* ajeje */ = {
 			isa = PBXGroup;
 			children = (
+				AE478FBD1DBBBE51007E7640 /* fonts_custom */,
 				AE478F7B1DBB370B007E7640 /* AppDelegate.h */,
 				AE478F7C1DBB370B007E7640 /* AppDelegate.m */,
-				AE478F7E1DBB370B007E7640 /* SplashViewController.h */,
-				AE478F7F1DBB370B007E7640 /* SplashViewController.m */,
 				AE478F811DBB370B007E7640 /* Main.storyboard */,
 				AE478F841DBB370B007E7640 /* Assets.xcassets */,
 				AE478F861DBB370B007E7640 /* LaunchScreen.storyboard */,
@@ -170,6 +185,8 @@
 				AE478FB51DBB6492007E7640 /* RecommandationViewController.m */,
 				AE478FB71DBBA58E007E7640 /* RecommandationDetailsViewController.h */,
 				AE478FB81DBBA58E007E7640 /* RecommandationDetailsViewController.m */,
+				AE478FBA1DBBB7B7007E7640 /* LandingViewController.h */,
+				AE478FBB1DBBB7B7007E7640 /* LandingViewController.m */,
 			);
 			path = ajeje;
 			sourceTree = "<group>";
@@ -198,6 +215,21 @@
 				AE478F9F1DBB370C007E7640 /* Info.plist */,
 			);
 			path = ajejeUITests;
+			sourceTree = "<group>";
+		};
+		AE478FBD1DBBBE51007E7640 /* fonts_custom */ = {
+			isa = PBXGroup;
+			children = (
+				AE478FBE1DBBBE51007E7640 /* Montserrat-Black.otf */,
+				AE478FBF1DBBBE51007E7640 /* Montserrat-Bold.otf */,
+				AE478FC01DBBBE51007E7640 /* Montserrat-Bold.ttf */,
+				AE478FC11DBBBE51007E7640 /* Montserrat-Hairline.otf */,
+				AE478FC21DBBBE51007E7640 /* Montserrat-Light.otf */,
+				AE478FC31DBBBE51007E7640 /* Montserrat-Regular.otf */,
+				AE478FC41DBBBE51007E7640 /* Montserrat-Regular.ttf */,
+				AE478FC51DBBBE51007E7640 /* Montserrat-SemiBold.otf */,
+			);
+			path = fonts_custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,9 +344,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE478FC71DBBBE51007E7640 /* Montserrat-Bold.otf in Resources */,
+				AE478FC61DBBBE51007E7640 /* Montserrat-Black.otf in Resources */,
+				AE478FC91DBBBE51007E7640 /* Montserrat-Hairline.otf in Resources */,
+				AE478FC81DBBBE51007E7640 /* Montserrat-Bold.ttf in Resources */,
 				AE478F881DBB370B007E7640 /* LaunchScreen.storyboard in Resources */,
 				AE478F851DBB370B007E7640 /* Assets.xcassets in Resources */,
 				AE478F831DBB370B007E7640 /* Main.storyboard in Resources */,
+				AE478FCD1DBBBE51007E7640 /* Montserrat-SemiBold.otf in Resources */,
+				AE478FCA1DBBBE51007E7640 /* Montserrat-Light.otf in Resources */,
+				AE478FCC1DBBBE51007E7640 /* Montserrat-Regular.ttf in Resources */,
+				AE478FCB1DBBBE51007E7640 /* Montserrat-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,8 +502,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE478F801DBB370B007E7640 /* SplashViewController.m in Sources */,
 				AE478F7D1DBB370B007E7640 /* AppDelegate.m in Sources */,
+				AE478FBC1DBBB7B7007E7640 /* LandingViewController.m in Sources */,
 				AE478FB31DBB54BF007E7640 /* Constant.swift in Sources */,
 				AE478FB61DBB6492007E7640 /* RecommandationViewController.m in Sources */,
 				AE478FB01DBB45BB007E7640 /* QuestionViewController.m in Sources */,
@@ -612,6 +652,7 @@
 			baseConfigurationReference = 09F9B007A34A5A8BD005AEAF /* Pods-ajeje.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ajeje/Info.plist;
@@ -629,6 +670,7 @@
 			baseConfigurationReference = 085B402C918B62982AD0F0B8 /* Pods-ajeje.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ajeje/Info.plist;
