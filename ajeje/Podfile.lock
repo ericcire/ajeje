@@ -1,0 +1,28 @@
+PODS:
+  - EZSwiftExtensions (1.5)
+  - MDCSwipeToChoose (0.2.3)
+  - Sugar (1.2.0)
+
+DEPENDENCIES:
+  - EZSwiftExtensions (from `https://github.com/goktugyil/EZSwiftExtensions.git`, branch `Swift2.3`)
+  - MDCSwipeToChoose
+  - Sugar
+
+EXTERNAL SOURCES:
+  EZSwiftExtensions:
+    :branch: Swift2.3
+    :git: https://github.com/goktugyil/EZSwiftExtensions.git
+
+CHECKOUT OPTIONS:
+  EZSwiftExtensions:
+    :commit: d67d2107e43b7ee9095f68b41f40530789965f60
+    :git: https://github.com/goktugyil/EZSwiftExtensions.git
+
+SPEC CHECKSUMS:
+  EZSwiftExtensions: fe78d7d4ac34f5c8c36415d4acee49ba67c9732a
+  MDCSwipeToChoose: 56239d98b4558c66e7c3c9069482befd26092270
+  Sugar: 556b623f0f8846cf08de7302701892f11d567419
+
+PODFILE CHECKSUM: 194a7e6137b150c4a9e8d0d5679030b6018f099f
+
+COCOAPODS: 1.0.1

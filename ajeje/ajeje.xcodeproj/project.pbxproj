@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E5FA4DC7378F6E5139B0BC1 /* Pods_ajejeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BECAC8A4A882EEE1C26D47A /* Pods_ajejeUITests.framework */; };
+		9D2AE22523AA1243B39A8F07 /* Pods_ajeje.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22ACE278FE11DE58C5D8117A /* Pods_ajeje.framework */; };
 		AE478F7A1DBB370B007E7640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478F791DBB370B007E7640 /* main.m */; };
 		AE478F7D1DBB370B007E7640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478F7C1DBB370B007E7640 /* AppDelegate.m */; };
-		AE478F801DBB370B007E7640 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478F7F1DBB370B007E7640 /* ViewController.m */; };
+		AE478F801DBB370B007E7640 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478F7F1DBB370B007E7640 /* SplashViewController.m */; };
 		AE478F831DBB370B007E7640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE478F811DBB370B007E7640 /* Main.storyboard */; };
 		AE478F851DBB370B007E7640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE478F841DBB370B007E7640 /* Assets.xcassets */; };
 		AE478F881DBB370B007E7640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE478F861DBB370B007E7640 /* LaunchScreen.storyboard */; };
 		AE478F931DBB370B007E7640 /* ajejeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478F921DBB370B007E7640 /* ajejeTests.m */; };
 		AE478F9E1DBB370C007E7640 /* ajejeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478F9D1DBB370C007E7640 /* ajejeUITests.m */; };
+		AE478FB01DBB45BB007E7640 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478FAF1DBB45BB007E7640 /* QuestionViewController.m */; };
+		AE478FB31DBB54BF007E7640 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE478FB21DBB54BF007E7640 /* Constant.swift */; };
+		AE478FB61DBB6492007E7640 /* RecommandationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478FB51DBB6492007E7640 /* RecommandationViewController.m */; };
+		AE478FB91DBBA58E007E7640 /* RecommandationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE478FB81DBBA58E007E7640 /* RecommandationDetailsViewController.m */; };
+		D6ECDFAC61F086C077522820 /* Pods_ajejeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E842CD14C70C164F28284214 /* Pods_ajejeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		085B402C918B62982AD0F0B8 /* Pods-ajeje.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajeje.release.xcconfig"; path = "Pods/Target Support Files/Pods-ajeje/Pods-ajeje.release.xcconfig"; sourceTree = "<group>"; };
+		09F9B007A34A5A8BD005AEAF /* Pods-ajeje.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajeje.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ajeje/Pods-ajeje.debug.xcconfig"; sourceTree = "<group>"; };
+		22ACE278FE11DE58C5D8117A /* Pods_ajeje.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ajeje.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BECAC8A4A882EEE1C26D47A /* Pods_ajejeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ajejeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77CB7F03869EAB88CC8F06F0 /* Pods-ajejeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajejeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ajejeTests/Pods-ajejeTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F0823737CF990E6DE42D98A /* Pods-ajejeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajejeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ajejeUITests/Pods-ajejeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA7BA4AB8EDC4D406FB98EE4 /* Pods-ajejeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajejeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ajejeUITests/Pods-ajejeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AE478F751DBB370B007E7640 /* ajeje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ajeje.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE478F791DBB370B007E7640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE478F7B1DBB370B007E7640 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE478F7C1DBB370B007E7640 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE478F7E1DBB370B007E7640 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE478F7F1DBB370B007E7640 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE478F7E1DBB370B007E7640 /* SplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		AE478F7F1DBB370B007E7640 /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		AE478F821DBB370B007E7640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE478F841DBB370B007E7640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE478F871DBB370B007E7640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +65,16 @@
 		AE478F991DBB370B007E7640 /* ajejeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ajejeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE478F9D1DBB370C007E7640 /* ajejeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ajejeUITests.m; sourceTree = "<group>"; };
 		AE478F9F1DBB370C007E7640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE478FAE1DBB45BB007E7640 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		AE478FAF1DBB45BB007E7640 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		AE478FB11DBB54BE007E7640 /* ajeje-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ajeje-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE478FB21DBB54BF007E7640 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		AE478FB41DBB6492007E7640 /* RecommandationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommandationViewController.h; sourceTree = "<group>"; };
+		AE478FB51DBB6492007E7640 /* RecommandationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommandationViewController.m; sourceTree = "<group>"; };
+		AE478FB71DBBA58E007E7640 /* RecommandationDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommandationDetailsViewController.h; sourceTree = "<group>"; };
+		AE478FB81DBBA58E007E7640 /* RecommandationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommandationDetailsViewController.m; sourceTree = "<group>"; };
+		C8F8561A0D6B04A0F7BFA203 /* Pods-ajejeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajejeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ajejeTests/Pods-ajejeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E842CD14C70C164F28284214 /* Pods_ajejeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ajejeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2AE22523AA1243B39A8F07 /* Pods_ajeje.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6ECDFAC61F086C077522820 /* Pods_ajejeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E5FA4DC7378F6E5139B0BC1 /* Pods_ajejeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01C93DF6B3479FA3662B01C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22ACE278FE11DE58C5D8117A /* Pods_ajeje.framework */,
+				E842CD14C70C164F28284214 /* Pods_ajejeTests.framework */,
+				2BECAC8A4A882EEE1C26D47A /* Pods_ajejeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5598FFAC206BF7AE222FD3F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09F9B007A34A5A8BD005AEAF /* Pods-ajeje.debug.xcconfig */,
+				085B402C918B62982AD0F0B8 /* Pods-ajeje.release.xcconfig */,
+				C8F8561A0D6B04A0F7BFA203 /* Pods-ajejeTests.debug.xcconfig */,
+				77CB7F03869EAB88CC8F06F0 /* Pods-ajejeTests.release.xcconfig */,
+				7F0823737CF990E6DE42D98A /* Pods-ajejeUITests.debug.xcconfig */,
+				AA7BA4AB8EDC4D406FB98EE4 /* Pods-ajejeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AE478F6C1DBB370B007E7640 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +135,8 @@
 				AE478F911DBB370B007E7640 /* ajejeTests */,
 				AE478F9C1DBB370B007E7640 /* ajejeUITests */,
 				AE478F761DBB370B007E7640 /* Products */,
+				5598FFAC206BF7AE222FD3F1 /* Pods */,
+				01C93DF6B3479FA3662B01C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,13 +155,21 @@
 			children = (
 				AE478F7B1DBB370B007E7640 /* AppDelegate.h */,
 				AE478F7C1DBB370B007E7640 /* AppDelegate.m */,
-				AE478F7E1DBB370B007E7640 /* ViewController.h */,
-				AE478F7F1DBB370B007E7640 /* ViewController.m */,
+				AE478F7E1DBB370B007E7640 /* SplashViewController.h */,
+				AE478F7F1DBB370B007E7640 /* SplashViewController.m */,
 				AE478F811DBB370B007E7640 /* Main.storyboard */,
 				AE478F841DBB370B007E7640 /* Assets.xcassets */,
 				AE478F861DBB370B007E7640 /* LaunchScreen.storyboard */,
 				AE478F891DBB370B007E7640 /* Info.plist */,
 				AE478F781DBB370B007E7640 /* Supporting Files */,
+				AE478FAE1DBB45BB007E7640 /* QuestionViewController.h */,
+				AE478FAF1DBB45BB007E7640 /* QuestionViewController.m */,
+				AE478FB21DBB54BF007E7640 /* Constant.swift */,
+				AE478FB11DBB54BE007E7640 /* ajeje-Bridging-Header.h */,
+				AE478FB41DBB6492007E7640 /* RecommandationViewController.h */,
+				AE478FB51DBB6492007E7640 /* RecommandationViewController.m */,
+				AE478FB71DBBA58E007E7640 /* RecommandationDetailsViewController.h */,
+				AE478FB81DBBA58E007E7640 /* RecommandationDetailsViewController.m */,
 			);
 			path = ajeje;
 			sourceTree = "<group>";
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE478FA21DBB370C007E7640 /* Build configuration list for PBXNativeTarget "ajeje" */;
 			buildPhases = (
+				ADB739D3F06AAA9FE9048DD3 /* [CP] Check Pods Manifest.lock */,
 				AE478F711DBB370B007E7640 /* Sources */,
 				AE478F721DBB370B007E7640 /* Frameworks */,
 				AE478F731DBB370B007E7640 /* Resources */,
+				41CA3F372F91B8C1AA5756F5 /* [CP] Embed Pods Frameworks */,
+				8473BAC8D090B42DD01F0068 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE478FA51DBB370C007E7640 /* Build configuration list for PBXNativeTarget "ajejeTests" */;
 			buildPhases = (
+				969270498A6FDD36C140FD98 /* [CP] Check Pods Manifest.lock */,
 				AE478F8A1DBB370B007E7640 /* Sources */,
 				AE478F8B1DBB370B007E7640 /* Frameworks */,
 				AE478F8C1DBB370B007E7640 /* Resources */,
+				05872B690AC1C53CC858AAC2 /* [CP] Embed Pods Frameworks */,
+				7CB51607140DA46BD1766516 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE478FA81DBB370C007E7640 /* Build configuration list for PBXNativeTarget "ajejeUITests" */;
 			buildPhases = (
+				194953400D164042E2F9A8E3 /* [CP] Check Pods Manifest.lock */,
 				AE478F951DBB370B007E7640 /* Sources */,
 				AE478F961DBB370B007E7640 /* Frameworks */,
 				AE478F971DBB370B007E7640 /* Resources */,
+				691F18F48FF50C43285D2302 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,14 +334,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05872B690AC1C53CC858AAC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ajejeTests/Pods-ajejeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		194953400D164042E2F9A8E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41CA3F372F91B8C1AA5756F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ajeje/Pods-ajeje-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		691F18F48FF50C43285D2302 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ajejeUITests/Pods-ajejeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB51607140DA46BD1766516 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ajejeTests/Pods-ajejeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8473BAC8D090B42DD01F0068 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ajeje/Pods-ajeje-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		969270498A6FDD36C140FD98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADB739D3F06AAA9FE9048DD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE478F711DBB370B007E7640 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE478F801DBB370B007E7640 /* ViewController.m in Sources */,
+				AE478F801DBB370B007E7640 /* SplashViewController.m in Sources */,
 				AE478F7D1DBB370B007E7640 /* AppDelegate.m in Sources */,
+				AE478FB31DBB54BF007E7640 /* Constant.swift in Sources */,
+				AE478FB61DBB6492007E7640 /* RecommandationViewController.m in Sources */,
+				AE478FB01DBB45BB007E7640 /* QuestionViewController.m in Sources */,
 				AE478F7A1DBB370B007E7640 /* main.m in Sources */,
+				AE478FB91DBBA58E007E7640 /* RecommandationDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,30 +609,40 @@
 		};
 		AE478FA31DBB370C007E7640 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F9B007A34A5A8BD005AEAF /* Pods-ajeje.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ajeje/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eric.ajeje;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ajeje/ajeje-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		AE478FA41DBB370C007E7640 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 085B402C918B62982AD0F0B8 /* Pods-ajeje.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ajeje/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eric.ajeje;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ajeje/ajeje-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		AE478FA61DBB370C007E7640 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F8561A0D6B04A0F7BFA203 /* Pods-ajejeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ajejeTests/Info.plist;
@@ -450,6 +655,7 @@
 		};
 		AE478FA71DBB370C007E7640 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77CB7F03869EAB88CC8F06F0 /* Pods-ajejeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ajejeTests/Info.plist;
@@ -462,6 +668,7 @@
 		};
 		AE478FA91DBB370C007E7640 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0823737CF990E6DE42D98A /* Pods-ajejeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ajejeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -473,6 +680,7 @@
 		};
 		AE478FAA1DBB370C007E7640 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7BA4AB8EDC4D406FB98EE4 /* Pods-ajejeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ajejeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -501,6 +709,7 @@
 				AE478FA41DBB370C007E7640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE478FA51DBB370C007E7640 /* Build configuration list for PBXNativeTarget "ajejeTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +718,7 @@
 				AE478FA71DBB370C007E7640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE478FA81DBB370C007E7640 /* Build configuration list for PBXNativeTarget "ajejeUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +727,7 @@
 				AE478FAA1DBB370C007E7640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

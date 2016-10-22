@@ -1,18 +1,10 @@
-//
-//  ViewController.m
-//  ajeje
-//
-//  Created by Eric Yu on 22/10/2016.
-//  Copyright © 2016 Eric Yu. All rights reserved.
-//
+#import "SplashViewController.h"
 
-#import "ViewController.h"
-
-@interface ViewController ()
+@interface SplashViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SplashViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

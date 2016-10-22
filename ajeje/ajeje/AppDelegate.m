@@ -1,11 +1,3 @@
-//
-//  AppDelegate.m
-//  ajeje
-//
-//  Created by Eric Yu on 22/10/2016.
-//  Copyright © 2016 Eric Yu. All rights reserved.
-//
-
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
